@@ -104,7 +104,7 @@ Where WAU/MAU = 62% (reported), sessions estimated from engagement trends, ads/s
 |----------|-----------|
 | **Financial Modeling** | Revenue driver decomposition, CAGR, scenario analysis, sensitivity tables, Monte Carlo simulation |
 | **Excel** | Multi-sheet architecture, 391 formulas, cross references, data validation, IB standard formatting |
-| **Strategic Analysis** | MBB problem framing, hypothesis driven structure, prioritization matrices, competitive mapping |
+| **Strategic Analysis** | Problem framing, hypothesis driven structure, prioritization matrices, competitive mapping |
 | **Management Commentary** | Earnings call transcript analysis, narrative vs data testing, analyst sentiment synthesis |
 | **Communication** | Executive presentation design, structured written analysis, visual data storytelling |
 
