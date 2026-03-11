@@ -1,6 +1,6 @@
 # Pinterest AI Disruption Risk Assessment
 
-**My aim was to create a strategic analysis examining Pinterest, one of the most influential creative social platforms, and how exposed it is to generative AI era. Driven by the endless curiosity to learn and built on SEC filings, scenario modeling, and 1,000 Monte Carlo simulations.**
+**My aim was to create a strategic analysis examining Pinterest, one of the most influential creative social platforms, and how exposed it is to generative AI era. Driven by the endless curiosity to learn and built on SEC filings, scenario modeling, and Monte Carlo simulations.**
 
 ---
 
@@ -8,9 +8,9 @@
 
 > How exposed is Pinterest's business model to AI disruption, and what strategic risks should leadership prioritize over the next 3 to 5 years?
 
-Pinterest has 619 million users and $4.2 billion in revenue. Its entire value proposition of helping people discover and curate ideas visually is precisely the kind of task generative AI was designed to replace. When someone can ask ChatGPT "how should I decorate my living room?" and get a personalized moodboard in 4 seconds, the strategic question for Pinterest isn't theoretical anymore.
+Pinterest has 619 million users and $4.2 billion in revenue. It's entire value proposition of helping people discover and curate ideas visually is exactly the kind of task that generative AI was designed to replace. When someone can ask ChatGPT "how should I decorate my living room?" and get a personalized moodboard in 4 seconds, the strategic question for Pinterest isn't just theoretical anymore.
 
-This project aims to apply high level consulting methodology to quantify that exposure: decomposing the revenue engine, stress testing every assumption through scenario analysis, and running 1,000 stochastic simulations to map the probability distribution of outcomes.
+This project aims to apply and learn high level consulting methodology to quantify that exposure: decomposing the revenue engine, stress testing every assumption through scenario analysis, and running 1,000 stochastic simulations to map the probability distribution of outcomes.
 
 ---
 
@@ -20,14 +20,14 @@ The most interesting part of this analysis is the gap between the corporate narr
 
 | Who | What They Said | What Actually Happened |
 |-----|---------------|----------------------|
-| **CEO Bill Ready** (Q3 '25) | Pinterest has become "an AI-powered visual-first shopping assistant" | Shopping clicks up 5x — but ad *prices* down 22% |
+| **CEO Bill Ready** (Q3 '25) | Pinterest has become "an AI-powered visual-first shopping assistant" | Shopping clicks up 5x but ad *prices* down 22% |
 | **CEO Bill Ready** (Q4 '25) | "AI is changing how people discover... Pinterest is designed for this shift" | Stock dropped 22% the next morning |
 | **Rosenblatt Securities** (Dec '25) | AI chatbots could pose "an existential risk" | Downgraded PINS, cut target from $49 to $30 |
-| **Pinterest SEC Filing** (Jan '26) | "Reallocating resources to AI-focused roles" | Cut 15% of workforce (~790 people) |
-| **CNN Investigation** (Nov '25) | Users "no longer recognize the app they signed up for" | AI-generated content flooding feeds |
+| **Pinterest SEC Filing** (Jan '26) | "Reallocating resources to AI focused roles" | Cut 15% of workforce (~790 people) |
+| **CNN Investigation** (Nov '25) | Users "no longer recognize the app they signed up for" | AI generated content absolutely flooding feeds |
 | **CEO Bill Ready** (Q2 '25) | "Pinterest is an AI winner" | Stock fell 10% despite 17% revenue growth |
 
-**The tension:** Ready's framing that Pinterest's visual and intent rich platform is *designed* for the AI era is strategically sound, but you can't call yourself an AI winner while cutting 15% of staff to become one. The most underappreciated data point is that 85% of users come directly to the app, not via search. That's a behavioral moat that no chatbot can easily crack. Whether management can monetize it before competitors build their own version is the $18 billion question (literally, that's the spread between our disruption and integration scenarios).
+**The tension:** Ready's framing that Pinterest's visual and intent rich platform is *designed* for the AI era is strategically sound, but you can't call yourself an AI winner while cutting 15% of staff to become one. The most underappreciated data point for me is that 85% of users come directly to the app, not via search. That's a behavioral defence that no chatbot can easily crack. Whether management can monetize it before competitors build their own version is the $18 billion question (literally, that's the spread between our disruption and integration scenarios).
 
 ---
 
@@ -46,21 +46,21 @@ The most interesting part of this analysis is the gap between the corporate narr
 ## Deliverables
 
 ### Financial Model (.xlsx)
-The analytical backbone: 8 interconnected sheets, 391 live formulas, zero errors.
+The analytical backbone: 8 interconnected sheets & 391 live formulas :)
 
 - **Raw Data** — 5 years of 10-K financials (MAUs, ARPU, revenue, OpEx, EBITDA, FCF)
 - **Trend Analysis** — YoY growth, CAGR, revenue share with embedded charts
 - **Revenue Driver Model** — Revenue = Users × Engagement × Ads × Price decomposition
-- **Scenario Engine** — Dropdown-driven 5 year projection (Base / AI Disruption / AI Integration)
-- **Sensitivity Analysis** — One-way and two way tables with conditional formatting
+- **Scenario Engine** — Dropdown driven 5 year projection (Base / AI Disruption / AI Integration)
+- **Sensitivity Analysis** — One way and two way tables with conditional formatting
 - **Geographic Opportunity** — ARPU convergence modeling across 5 scenarios
 - **Monte Carlo Simulation** — 1,000 iterations with distribution histogram and probability stats
 - **Dashboard** — Executive summary with KPIs, risk matrix, and strategic options
 
-Built with IB standard color coding (blue = inputs, black = formulas), cross sheet references, data validation dropdowns, and scenario switching.
+Built with super IB standard color coding (blue = inputs, black = formulas), cross sheet references, data validation dropdowns, and scenario switching.
 
 ### Strategy Deck (.pptx)
-18 slide consulting presentation following the full MBB arc:
+18 slide consulting presentation attempting to follow the full MBB arc as researched:
 
 Executive Question → Industry Context → Business Model → Revenue Concentration → Monetization Gap → AI Disruption Pathways → Financial Trajectory → Scenario Modeling → Sensitivity Analysis → Monte Carlo Results → Revenue Drivers → Strategic Options → Prioritization Matrix → Geographic Opportunity → Operating Leverage → Recommendation → Appendix
 
@@ -112,6 +112,6 @@ Where WAU/MAU = 62% (reported), sessions estimated from engagement trends, ads/s
 
 ## About
 
-Built as a consulting style case study to answer a real strategic question using public financial data, I wanted to showcase the ideas of financial analysis, technology strategy, and business communication in a way that was professional but also reasonably understandable while applying methodologies and functions that I learned in school.
+Built as a consulting style case study to answer a real strategic question using public financial data, I wanted to showcase the ideas of financial analysis, technology strategy, and business communication in a way that was professional but also reasonably understandable while applying methodologies and functions that I learned in school. Also serves to itch a satisfy a personal curiosity on how creative CAN mix with the AI era without disrupting users!
 
 All data sourced from Pinterest's public SEC filings. All projections are forward looking estimates. NOT investment advice!!
