@@ -1,6 +1,6 @@
 # Pinterest AI Disruption Risk Assessment
 
-**My aim was to create a strategic analysis examining Pinterest, one of the most influential creative social platforms, and how exposed it is to generative AI disruption. Driven by the endless curiosity to learn and built on SEC filings, scenario modeling, and 1,000 Monte Carlo simulations.**
+**My aim was to create a strategic analysis examining Pinterest, one of the most influential creative social platforms, and how exposed it is to generative AI era. Driven by the endless curiosity to learn and built on SEC filings, scenario modeling, and 1,000 Monte Carlo simulations.**
 
 ---
 
