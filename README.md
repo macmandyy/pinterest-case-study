@@ -67,8 +67,17 @@ Executive Question → Industry Context → Business Model → Revenue Concentra
 ### Written Case Study (.docx)
 ~1,100 word structured analysis covering business model mechanics, financial insights, AI disruption pathways, scenario results, and prioritized strategic recommendations.
 
-### Monte Carlo Risk Simulation
-1,000 stochastic simulations varying 6 parameters simultaneously:
+### Monte Carlo Simulation (Python)
+This is the part I had the most fun building. The Jupyter notebook (`pinterest_monte_carlo.ipynb`) runs 10,000 stochastic simulations varying six parameters simultaneously and visualizes the results, up from the 1,000 we ran in Excel (because being able to scale is awesome). GitHub renders the notebook with all charts inline, so you can read the full analysis without downloading anything.
+
+Five charts tell the story:
+1. **Revenue Distribution Histogram**: where do the 10,000 outcomes actually land?
+2. **Tornado Chart**: which variables move the needle most? (spoiler: engagement, by a lot)
+3. **Regional Box Plots**: where does the risk concentrate geographically?
+4. **Cumulative Probability Curve**: "what are the odds?" at every revenue threshold
+5. **Scatter Plots**: engagement and MAU growth vs. revenue, with correlation coefficients
+
+The standalone Python script (`pinterest_monte_carlo.py`) runs the same analysis if you want to tweak the parameters yourself.
 
 | Parameter | Range |
 |-----------|-------|
@@ -103,15 +112,16 @@ Where WAU/MAU = 62% (reported), sessions estimated from engagement trends, ads/s
 | Category | Techniques |
 |----------|-----------|
 | **Financial Modeling** | Revenue driver decomposition, CAGR, scenario analysis, sensitivity tables, Monte Carlo simulation |
-| **Excel** | Multi-sheet architecture, 391 formulas, cross references, data validation, IB standard formatting |
-| **Strategic Analysis** | Problem framing, hypothesis driven structure, prioritization matrices, competitive mapping |
-| **Management Commentary** | Earnings call transcript analysis, narrative vs data testing, analyst sentiment synthesis |
+| **Excel** | Multi-sheet architecture, 391 formulas, cross-references, data validation, IB-standard formatting |
+| **Python** | numpy, matplotlib, pandas; Monte Carlo simulation; histogram, tornado, box plot, CDF, and scatter visualizations |
+| **Strategic Analysis** | MBB problem framing, hypothesis-driven structure, prioritization matrices, competitive mapping |
+| **Management Commentary** | Earnings call transcript analysis, narrative-vs-data testing, analyst sentiment synthesis |
 | **Communication** | Executive presentation design, structured written analysis, visual data storytelling |
 
 ---
 
 ## About
 
-Built as a consulting style case study to answer a real strategic question using public financial data, I wanted to showcase the ideas of financial analysis, technology strategy, and business communication in a way that was professional but also reasonably understandable while applying methodologies and functions that I learned in school. Also serves to itch a satisfy a personal curiosity on how creative CAN mix with the AI era without disrupting users!
+Built as a consulting style case study to answer a real strategic question using public financial data, I wanted to showcase the ideas of financial analysis, technology strategy, and business communication in a way that was professional but also reasonably understandable while applying methodologies and functions that I learned in school. Also serves to itch a personal curiosity on how creative CAN mix with the AI era without disrupting users!
 
 All data sourced from Pinterest's public SEC filings. All projections are forward looking estimates. NOT investment advice!!
