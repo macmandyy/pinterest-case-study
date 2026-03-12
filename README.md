@@ -20,7 +20,7 @@ The most interesting part of this analysis is the gap between the corporate narr
 
 | Who | What They Said | What Actually Happened |
 |-----|---------------|----------------------|
-| **CEO Bill Ready** (Q3 '25) | Pinterest has become "an AI-powered visual-first shopping assistant" | Shopping clicks up 5x but ad *prices* down 22% |
+| **CEO Bill Ready** (Q3 '25) | Pinterest has become "an AI powered visual first shopping assistant" | Shopping clicks up 5x but ad *prices* down 22% |
 | **CEO Bill Ready** (Q4 '25) | "AI is changing how people discover... Pinterest is designed for this shift" | Stock dropped 22% the next morning |
 | **Rosenblatt Securities** (Dec '25) | AI chatbots could pose "an existential risk" | Downgraded PINS, cut target from $49 to $30 |
 | **Pinterest SEC Filing** (Jan '26) | "Reallocating resources to AI focused roles" | Cut 15% of workforce (~790 people) |
@@ -112,10 +112,10 @@ Where WAU/MAU = 62% (reported), sessions estimated from engagement trends, ads/s
 | Category | Techniques |
 |----------|-----------|
 | **Financial Modeling** | Revenue driver decomposition, CAGR, scenario analysis, sensitivity tables, Monte Carlo simulation |
-| **Excel** | Multi-sheet architecture, 391 formulas, cross-references, data validation, IB-standard formatting |
+| **Excel** | Multi sheet architecture, 391 formulas, cross references, data validation, IB standard formatting |
 | **Python** | numpy, matplotlib, pandas; Monte Carlo simulation; histogram, tornado, box plot, CDF, and scatter visualizations |
-| **Strategic Analysis** | MBB problem framing, hypothesis-driven structure, prioritization matrices, competitive mapping |
-| **Management Commentary** | Earnings call transcript analysis, narrative-vs-data testing, analyst sentiment synthesis |
+| **Strategic Analysis** | MBB problem framing, hypothesis driven structure, prioritization matrices, competitive mapping |
+| **Management Commentary** | Earnings call transcript analysis, narrative vs data testing, analyst sentiment synthesis |
 | **Communication** | Executive presentation design, structured written analysis, visual data storytelling |
 
 ---
